@@ -1,12 +1,9 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
-import './City.css';
+import React from 'react'
 
-const City = ({ name }) => (
-  <div className="city">
-    <h1>{name}</h1>
-  </div>
+const city = () => {
+  return (
+    <div>city</div>
+  )
+}
 
-);
-
-export default City;
+export default city
