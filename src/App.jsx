@@ -4,9 +4,14 @@ import './App.css'
 import Search from './components/search/search'
 
 const App = () => {
+
+  const handelOnSearchChange = {searchData} => {
+    console.log(searchData);
+  }
+
   return (
     <div className="container">
-      <Search />
+      <Search onSearchChange={handelOnSearchChange} />
     </div>
   )
 }
